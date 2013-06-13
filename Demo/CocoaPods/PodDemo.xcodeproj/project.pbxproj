@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CFCA7DA1769F6A10013ADB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFCA7D91769F6A10013ADB8 /* UIKit.framework */; };
+		2CFCA7DC1769F6A10013ADB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFCA7DB1769F6A10013ADB8 /* Foundation.framework */; };
+		2CFCA7DE1769F6A10013ADB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFCA7DD1769F6A10013ADB8 /* CoreGraphics.framework */; };
+		2CFCA7E41769F6A10013ADB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA7E21769F6A10013ADB8 /* InfoPlist.strings */; };
+		2CFCA7E61769F6A10013ADB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA7E51769F6A10013ADB8 /* main.m */; };
+		2CFCA7EC1769F6A10013ADB8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA7EB1769F6A10013ADB8 /* Default.png */; };
+		2CFCA7EE1769F6A10013ADB8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA7ED1769F6A10013ADB8 /* Default@2x.png */; };
+		2CFCA7F01769F6A10013ADB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA7EF1769F6A10013ADB8 /* Default-568h@2x.png */; };
+		2CFCA7FF1769F7D40013ADB8 /* WEPopoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA7F81769F7D40013ADB8 /* WEPopoverAppDelegate.m */; };
+		2CFCA8001769F7D40013ADB8 /* WEPopoverContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA7FA1769F7D40013ADB8 /* WEPopoverContentViewController.m */; };
+		2CFCA8011769F7D40013ADB8 /* WEPopoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA7FC1769F7D40013ADB8 /* WEPopoverTableViewController.m */; };
+		2CFCA8021769F7D40013ADB8 /* WEPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA7FE1769F7D40013ADB8 /* WEPopoverViewController.m */; };
+		2CFCA8051769F7EC0013ADB8 /* WEPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA8041769F7EC0013ADB8 /* WEPopoverViewController.xib */; };
+		2CFCA8071769FA130013ADB8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA8061769FA130013ADB8 /* MainWindow.xib */; };
+		6A99BD2AD8784595A1544FDF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C50E4836B8F40B0847ACBA0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05152F051CBA43C6A68A8A03 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		2C50E4836B8F40B0847ACBA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFCA7D61769F6A10013ADB8 /* PodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFCA7D91769F6A10013ADB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CFCA7DB1769F6A10013ADB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CFCA7DD1769F6A10013ADB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CFCA7E11769F6A10013ADB8 /* PodDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PodDemo-Info.plist"; sourceTree = "<group>"; };
+		2CFCA7E31769F6A10013ADB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CFCA7E51769F6A10013ADB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CFCA7E71769F6A10013ADB8 /* PodDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PodDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2CFCA7EB1769F6A10013ADB8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2CFCA7ED1769F6A10013ADB8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2CFCA7EF1769F6A10013ADB8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2CFCA7F71769F7D40013ADB8 /* WEPopoverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPopoverAppDelegate.h; path = Classes/WEPopoverAppDelegate.h; sourceTree = "<group>"; };
+		2CFCA7F81769F7D40013ADB8 /* WEPopoverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPopoverAppDelegate.m; path = Classes/WEPopoverAppDelegate.m; sourceTree = "<group>"; };
+		2CFCA7F91769F7D40013ADB8 /* WEPopoverContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPopoverContentViewController.h; path = Classes/WEPopoverContentViewController.h; sourceTree = "<group>"; };
+		2CFCA7FA1769F7D40013ADB8 /* WEPopoverContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPopoverContentViewController.m; path = Classes/WEPopoverContentViewController.m; sourceTree = "<group>"; };
+		2CFCA7FB1769F7D40013ADB8 /* WEPopoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPopoverTableViewController.h; path = Classes/WEPopoverTableViewController.h; sourceTree = "<group>"; };
+		2CFCA7FC1769F7D40013ADB8 /* WEPopoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPopoverTableViewController.m; path = Classes/WEPopoverTableViewController.m; sourceTree = "<group>"; };
+		2CFCA7FD1769F7D40013ADB8 /* WEPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPopoverViewController.h; path = Classes/WEPopoverViewController.h; sourceTree = "<group>"; };
+		2CFCA7FE1769F7D40013ADB8 /* WEPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPopoverViewController.m; path = Classes/WEPopoverViewController.m; sourceTree = "<group>"; };
+		2CFCA8041769F7EC0013ADB8 /* WEPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WEPopoverViewController.xib; sourceTree = "<group>"; };
+		2CFCA8061769FA130013ADB8 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFCA7D31769F6A10013ADB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCA7DA1769F6A10013ADB8 /* UIKit.framework in Frameworks */,
+				2CFCA7DC1769F6A10013ADB8 /* Foundation.framework in Frameworks */,
+				2CFCA7DE1769F6A10013ADB8 /* CoreGraphics.framework in Frameworks */,
+				6A99BD2AD8784595A1544FDF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CFCA7CD1769F6A10013ADB8 = {
+			isa = PBXGroup;
+			children = (
+				2CFCA7DF1769F6A10013ADB8 /* PodDemo */,
+				2CFCA7D81769F6A10013ADB8 /* Frameworks */,
+				2CFCA7D71769F6A10013ADB8 /* Products */,
+				05152F051CBA43C6A68A8A03 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2CFCA7D71769F6A10013ADB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA7D61769F6A10013ADB8 /* PodDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFCA7D81769F6A10013ADB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA7D91769F6A10013ADB8 /* UIKit.framework */,
+				2CFCA7DB1769F6A10013ADB8 /* Foundation.framework */,
+				2CFCA7DD1769F6A10013ADB8 /* CoreGraphics.framework */,
+				2C50E4836B8F40B0847ACBA0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CFCA7DF1769F6A10013ADB8 /* PodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA8031769F7DB0013ADB8 /* Resources */,
+				2CFCA7F61769F7C50013ADB8 /* Classes */,
+				2CFCA7E01769F6A10013ADB8 /* Supporting Files */,
+			);
+			path = PodDemo;
+			sourceTree = "<group>";
+		};
+		2CFCA7E01769F6A10013ADB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA7E11769F6A10013ADB8 /* PodDemo-Info.plist */,
+				2CFCA7E21769F6A10013ADB8 /* InfoPlist.strings */,
+				2CFCA7E51769F6A10013ADB8 /* main.m */,
+				2CFCA7E71769F6A10013ADB8 /* PodDemo-Prefix.pch */,
+				2CFCA7EB1769F6A10013ADB8 /* Default.png */,
+				2CFCA7ED1769F6A10013ADB8 /* Default@2x.png */,
+				2CFCA7EF1769F6A10013ADB8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CFCA7F61769F7C50013ADB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA7F71769F7D40013ADB8 /* WEPopoverAppDelegate.h */,
+				2CFCA7F81769F7D40013ADB8 /* WEPopoverAppDelegate.m */,
+				2CFCA7F91769F7D40013ADB8 /* WEPopoverContentViewController.h */,
+				2CFCA7FA1769F7D40013ADB8 /* WEPopoverContentViewController.m */,
+				2CFCA7FB1769F7D40013ADB8 /* WEPopoverTableViewController.h */,
+				2CFCA7FC1769F7D40013ADB8 /* WEPopoverTableViewController.m */,
+				2CFCA7FD1769F7D40013ADB8 /* WEPopoverViewController.h */,
+				2CFCA7FE1769F7D40013ADB8 /* WEPopoverViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2CFCA8031769F7DB0013ADB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA8061769FA130013ADB8 /* MainWindow.xib */,
+				2CFCA8041769F7EC0013ADB8 /* WEPopoverViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFCA7D51769F6A10013ADB8 /* PodDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFCA7F31769F6A10013ADB8 /* Build configuration list for PBXNativeTarget "PodDemo" */;
+			buildPhases = (
+				F9418C608D7141B3BEA2A702 /* Check Pods Manifest.lock */,
+				2CFCA7D21769F6A10013ADB8 /* Sources */,
+				2CFCA7D31769F6A10013ADB8 /* Frameworks */,
+				2CFCA7D41769F6A10013ADB8 /* Resources */,
+				30FD6B0E913640AAA4DA742E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodDemo;
+			productName = PodDemo;
+			productReference = 2CFCA7D61769F6A10013ADB8 /* PodDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CFCA7CE1769F6A10013ADB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Faria Technologies Ltd.";
+			};
+			buildConfigurationList = 2CFCA7D11769F6A10013ADB8 /* Build configuration list for PBXProject "PodDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CFCA7CD1769F6A10013ADB8;
+			productRefGroup = 2CFCA7D71769F6A10013ADB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CFCA7D51769F6A10013ADB8 /* PodDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFCA7D41769F6A10013ADB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCA7E41769F6A10013ADB8 /* InfoPlist.strings in Resources */,
+				2CFCA7EC1769F6A10013ADB8 /* Default.png in Resources */,
+				2CFCA7EE1769F6A10013ADB8 /* Default@2x.png in Resources */,
+				2CFCA7F01769F6A10013ADB8 /* Default-568h@2x.png in Resources */,
+				2CFCA8051769F7EC0013ADB8 /* WEPopoverViewController.xib in Resources */,
+				2CFCA8071769FA130013ADB8 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30FD6B0E913640AAA4DA742E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		F9418C608D7141B3BEA2A702 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CFCA7D21769F6A10013ADB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCA7E61769F6A10013ADB8 /* main.m in Sources */,
+				2CFCA7FF1769F7D40013ADB8 /* WEPopoverAppDelegate.m in Sources */,
+				2CFCA8001769F7D40013ADB8 /* WEPopoverContentViewController.m in Sources */,
+				2CFCA8011769F7D40013ADB8 /* WEPopoverTableViewController.m in Sources */,
+				2CFCA8021769F7D40013ADB8 /* WEPopoverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CFCA7E21769F6A10013ADB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFCA7E31769F6A10013ADB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CFCA7F11769F6A10013ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CFCA7F21769F6A10013ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CFCA7F41769F6A10013ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05152F051CBA43C6A68A8A03 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodDemo/PodDemo-Prefix.pch";
+				INFOPLIST_FILE = "PodDemo/PodDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CFCA7F51769F6A10013ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05152F051CBA43C6A68A8A03 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodDemo/PodDemo-Prefix.pch";
+				INFOPLIST_FILE = "PodDemo/PodDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFCA7D11769F6A10013ADB8 /* Build configuration list for PBXProject "PodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFCA7F11769F6A10013ADB8 /* Debug */,
+				2CFCA7F21769F6A10013ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFCA7F31769F6A10013ADB8 /* Build configuration list for PBXNativeTarget "PodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFCA7F41769F6A10013ADB8 /* Debug */,
+				2CFCA7F51769F6A10013ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CFCA7CE1769F6A10013ADB8 /* Project object */;
+}
